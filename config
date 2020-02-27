@@ -1,0 +1,14 @@
+## config file location .ssh/config
+
+
+Host stage
+        HostName <hostname>
+        Port 22
+        IdentityFile  <pem_file_location_with_file.pem>
+        User ubuntu
+
+Host myhost
+        HostName 10.100.1.132
+        Port 22
+        IdentityFile  /home/sujon/Downloads/.pemFile/staging-server.pem
+        User sujon
